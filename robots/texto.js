@@ -9,7 +9,7 @@ function robo(conteudo) {
             "lang": "pt"
         };
 
-        Algorithmia.client("simcK/8SxR7W6uhWFhM6b45YMlQ1")
+        Algorithmia.client("AQUI VAI SUA CHAVE DE UTILIZAÇÃO")
             .algo("web/WikipediaParser/0.1.2?timeout=300") // timeout is optional
             .pipe(input)
             .then(function(response) {
